@@ -30,10 +30,27 @@ main /*this is where your boxes will learn how to behave, this is your parent bo
 {display: grid;
  gap: 5px;
  grid-template-columns:1fr 1fr 1fr;
- background-color:gold;
+ background-color:red;
  border:3px dashed brown;
  height: 300px;
 }
+
+ /*Start of top row*/       
+.box2
+{display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+background-color: deepskyblue;
+ border: 3px dashed yellow;     
+}
+
+ /*End of top row*/       
+ .box3
+ {display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: blueviolet;
+  border: 3px dashed pink;
+                
+        }
   
 </style> 
 </head>
@@ -44,8 +61,12 @@ main /*this is where your boxes will learn how to behave, this is your parent bo
 <main>
 
 <div class="box1">Hello!
+<div class="box2">bleh</div>
+<div class="box3">meow</div>
 
 </main>
+
+<footer></footer>
 
 </body>
 </html>
